@@ -1,0 +1,5 @@
+item_id	target_field	expected_value	predicted_value	match_status	error_type	confidence	note
+001	material	SS400	SS400	match	none	high	Title block extraction succeeded
+002	hole_count	7	6	mismatch	quantity_recognition_error	medium	Hole count under-counted
+003	ref_dim_flag	true	false	mismatch	reference_dimension_misclassification	medium	Reference dimension treated as normal
+004	surface_finish	6.3	unreadable	partial	text_recognition_failure	low	Symbol partially unreadable
